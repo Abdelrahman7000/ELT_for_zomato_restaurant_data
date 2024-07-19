@@ -10,7 +10,7 @@ models:
           - not_null
   - name: stg_food
   # staging food table
-    description: food table
+    description: This contains the food related data
     columns:
       - name: id
         description: 'PK: must be unique and not null'
@@ -19,7 +19,7 @@ models:
           - not_null
   - name: stg_menu
   # staging menu table
-    description: menu
+    description: contains information about the menus of different restaurants on the app.
     columns:
       - name: id
         description: 'PK: only non-null values accepted'
@@ -27,7 +27,7 @@ models:
           - not_null
   - name: stg_orders
   # staging orders table
-    description: contains the orders
+    description: contains information about the orders placed by users on the app.
     columns:
       - name: order_date
         description: 'only non-null values accepted'
@@ -41,7 +41,7 @@ models:
                 - "INR"
   - name: stg_restaurant
   # staging restaurants table
-    description: different restaurants
+    description: contains information about the restaurants available on the app
     columns:
       - name: id
         tests:
@@ -49,7 +49,7 @@ models:
           - not_null
   - name: stg_users
   # staging users table
-    description: users table 
+    description: contains credentials about the users registered on the app
     columns:
       - name: id
         description: 'PK: must be unique and not null'
