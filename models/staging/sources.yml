@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: staging
+    description: a clone of a BigQuery datawarehouse
+    database: teak-clarity-423211-h9
+    schema: raw_data
+    tables:
+      - name: countries
+        description: raw countries data
+
+      - name: food
+        description: raw countries data
+
+      - name: menu
+        description: raw countries data
+       
+
+      - name: orders
+        description: raw countries data
+      
+      - name: restaurant
+        description: raw countries data
+        
+      - name: users
+        description: raw countries data
+        
