@@ -1,4 +1,5 @@
 # ELT_pro
+![e](https://github.com/user-attachments/assets/3d2cf683-61af-484f-b03a-1b2663fbacbc)
 
 In this ELT project, we use Zomato Restaurant data from <a href="https://www.kaggle.com/datasets/anas123siddiqui/zomato-database?select=orders.csv" target="_blank">Kaggle</a>. It is an Indian multinational restaurant aggregator and food delivery company.
 
