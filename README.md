@@ -6,8 +6,8 @@ In this ELT project, we use Zomato Restaurant data from <a href="https://www.kag
 ## Objectives
 <ul>
     <li>Extract the data from the CSV files.</li>
-    <li>Loads this data into Snowflake data warehouse.</li>
-    <li>Transforms loaded data using dbt applying Kimbal Dimensional Modeling</li>
+    <li>Loads this data into BigQuery data warehouse.</li>
+    <li>Transforms the loaded data using dbt applying Kimbal Dimensional Modeling</li>
     <li>Build a Tableau report to visualize data</li>
 </ul>
 
