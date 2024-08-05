@@ -15,8 +15,8 @@ In this ELT project, we use Zomato Restaurant data from <a href="https://www.kag
 <ul>
     <li>Python for extracting the data and loading it to BigQuery.</li>
     <li>Airflow for orchestration.</li>
-    <li>BigQuery for data warehouse.</li>
-    <li>dbt for transformation and data modeling.</li>
+    <li>BigQuery as data warehouse.</li>
+    <li>dbt as transformation and data modeling tool.</li>
     <li>Tableau for data visualization.</li>
 </ul>
 
